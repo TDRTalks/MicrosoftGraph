@@ -11,6 +11,7 @@ namespace OfficeHours
     {
         public void Configuration(IAppBuilder app)
         {
+            // IN App_Start
             ConfigureAuth(app);
         }
     }
